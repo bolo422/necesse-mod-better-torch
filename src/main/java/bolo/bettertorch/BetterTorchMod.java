@@ -1,14 +1,9 @@
 package bolo.bettertorch;
 
-import bolo.bettertorch.model.*;
+import bolo.bettertorch.model.BetterTorchObject;
 import necesse.engine.modLoader.annotations.ModEntry;
-import necesse.engine.registries.*;
-import necesse.inventory.item.toolItem.ToolType;
-import necesse.inventory.recipe.Ingredient;
-import necesse.inventory.recipe.Recipe;
+import necesse.engine.registries.ObjectRegistry;
 import necesse.inventory.recipe.Recipes;
-
-import java.awt.*;
 
 @ModEntry
 public class BetterTorchMod {
@@ -18,13 +13,12 @@ public class BetterTorchMod {
     public void preInit() {
         System.out.println("Pre-Init Better Torch Mod...");
         config = new Config("settings.cfg");
-        config = new Config();
         System.out.println(
                 "Better Torch Mod initialization completed! " +
                         "lightHue {" + config.getLightHue() + "}, " +
                         "lightSat {" + config.getLightSat() + "}, " +
                         "lightLevel {" + config.getLightLevel() + "}, " +
-                        "recipeDifficulty {" + config.getRecipeDifficulty().toString() + "}");
+                        "recipeDifficulty {" + config.getRecipeDifficulty() + "}");
     }
 
     public void init() {

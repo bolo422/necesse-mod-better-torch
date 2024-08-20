@@ -1,15 +1,11 @@
 package bolo.bettertorch.model;
 
-import bolo.bettertorch.Config;
 import necesse.engine.localization.Localization;
-import necesse.engine.util.GameRandom;
 import necesse.entity.mobs.PlayerMob;
-import necesse.entity.projectile.BombProjectile;
 import necesse.gfx.gameTooltips.ListGameTooltips;
 import necesse.inventory.InventoryItem;
 import necesse.inventory.item.toolItem.ToolType;
 import necesse.level.gameObject.TorchObject;
-import necesse.level.maps.Level;
 
 import java.awt.*;
 
