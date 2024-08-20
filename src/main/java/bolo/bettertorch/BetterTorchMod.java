@@ -14,6 +14,7 @@ import java.awt.*;
 public class BetterTorchMod {
 
     public void init() {
+        System.out.println("Starting Better Torch Mod, Hello World!");
         ObjectRegistry.registerObject(
                 "bettertorch",
                 new BetterTorchObject("bettertorch", ToolType.ALL, new Color(255, 255, 255), 1F, 0F), 2, true);

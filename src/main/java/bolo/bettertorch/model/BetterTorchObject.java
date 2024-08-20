@@ -14,6 +14,7 @@ public class BetterTorchObject extends TorchObject {
     public BetterTorchObject(String textureName, ToolType toolType, Color mapColor, float lightHue, float lightSat) {
         super(textureName, toolType, mapColor, lightHue, lightSat);
         lightLevel = 300;
+        System.out.println("Constructed Better Torch Object!");
     }
 
     @Override
