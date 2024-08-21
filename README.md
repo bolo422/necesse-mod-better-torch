@@ -2,6 +2,8 @@ A stronger torch for Necesse.
 
 Check out the [Steam workshop page for the mod.](https://steamcommunity.com/sharedfiles/filedetails/?id=3311404008)
 
+### [Jar File for servers](https://github.com/bolo422/necesse-mod-better-torch/blob/main/ABetterTorch-0.26.1-1.1.jar)
+
 ### I'm not an artist, so if you want to submit a better texture for my mod I may accept it :)
 Here's the current textures and how to submit a new one:
 - [Torch object textures, ON and OFF versions](https://github.com/bolo422/necesse-mod-better-torch/tree/main/src/main/resources/objects)
