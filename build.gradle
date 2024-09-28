@@ -7,8 +7,8 @@ plugins {
 
 project.ext.modID = "bolo.bettertorch" // The unique id of your mod. Must be all lowercase and cannot use special characters.
 project.ext.modName = "A Better Torch" // The display name of your mod.
-project.ext.modVersion = "1.1" // Your current builds version. Must follow the xx.xx... format.
-project.ext.gameVersion = "0.26.1" // The target game version.
+project.ext.modVersion = "1.2" // Your current builds version. Must follow the xx.xx... format.
+project.ext.gameVersion = "0.27.0" // The target game version.
 project.ext.modDescription = "A simple stronger torch, 2x the light of the vanilla one." // Short description of what your mod is.
 project.ext.author = "Bolo" // Your name
 
@@ -28,7 +28,7 @@ project.ext.clientside = false
 //project.ext.modOptionalDependencies = ["optional.modid1", "optional.modid2"]
 
 // The path to the games install directory
-def gameDirectory = "E:/SteamLibrary/steamapps/common/Necesse"
+def gameDirectory = "D:/Steam/steamapps/common/Necesse"
 
 // =================================================
 // ========== DO NOT EDIT BELOW THIS LINE ==========
